@@ -1,0 +1,112 @@
+export const projects = [
+  {
+    id: "1",
+    name: "Metro Tower",
+    location: "Chennai",
+    manager: "Alex Mercer",
+    progress: 72,
+    phase: "Structural Work",
+    status: "On Track",
+    startDate: "2025-02-15",
+    expectedCompletion: "2027-06-30",
+    client: "Horizon Developments",
+  },
+  {
+    id: "2",
+    name: "Green Heights",
+    location: "Bangalore",
+    manager: "Sarah Jenkins",
+    progress: 54,
+    phase: "MEP Installation",
+    status: "Attention",
+    startDate: "2025-05-10",
+    expectedCompletion: "2026-11-15",
+    client: "Eco Living Solutions",
+  },
+  {
+    id: "3",
+    name: "Tech Park Phase II",
+    location: "Hyderabad",
+    manager: "Rajesh Kumar",
+    progress: 81,
+    phase: "Finishing",
+    status: "On Track",
+    startDate: "2024-09-01",
+    expectedCompletion: "2026-03-31",
+    client: "Global Tech Infra",
+  },
+  {
+    id: "4",
+    name: "Riverside Bridge",
+    location: "Pune",
+    manager: "David Chen",
+    progress: 32,
+    phase: "Foundation",
+    status: "Delayed",
+    startDate: "2026-01-20",
+    expectedCompletion: "2028-02-10",
+    client: "State Infrastructure Board",
+  }
+];
+
+export const issues = [
+  {
+    id: "ISS-042",
+    projectId: "2",
+    projectName: "Green Heights",
+    title: "Unauthorized material storage",
+    category: "Safety",
+    severity: "High",
+    detected: "Today",
+    status: "Open",
+    assignee: "Sarah Jenkins",
+  },
+  {
+    id: "ISS-041",
+    projectId: "1",
+    projectName: "Metro Tower",
+    title: "Safety barrier missing on level 4",
+    category: "Safety",
+    severity: "Medium",
+    detected: "Yesterday",
+    status: "Investigating",
+    assignee: "Alex Mercer",
+  },
+  {
+    id: "ISS-039",
+    projectId: "3",
+    projectName: "Tech Park Phase II",
+    title: "Concrete surface defect in lobby",
+    category: "Quality",
+    severity: "Low",
+    detected: "2 days ago",
+    status: "Resolved",
+    assignee: "Rajesh Kumar",
+  },
+  {
+    id: "ISS-043",
+    projectId: "4",
+    projectName: "Riverside Bridge",
+    title: "Equipment breakdown (Excavator)",
+    category: "Equipment",
+    severity: "Critical",
+    detected: "Today",
+    status: "Open",
+    assignee: "David Chen",
+  }
+];
+
+export const siteActivity = [
+  { id: 1, time: "08:42", description: "Site image uploaded for Metro Tower", type: "image" },
+  { id: 2, time: "09:15", description: "Safety issue identified at Green Heights", type: "issue" },
+  { id: 3, time: "10:30", description: "Progress updated for Tech Park Phase II (81%)", type: "progress" },
+  { id: 4, time: "11:20", description: "Inspection completed at Riverside Bridge", type: "inspection" },
+];
+
+export const teamMembers = [
+  { id: "1", name: "Alex Mercer", role: "Project Manager", project: "Metro Tower", status: "Active", lastActive: "Just now" },
+  { id: "2", name: "Sarah Jenkins", role: "Site Engineer", project: "Green Heights", status: "Active", lastActive: "15 min ago" },
+  { id: "3", name: "Rajesh Kumar", role: "Project Manager", project: "Tech Park Phase II", status: "Active", lastActive: "2 hours ago" },
+  { id: "4", name: "David Chen", role: "Site Engineer", project: "Riverside Bridge", status: "Offline", lastActive: "1 day ago" },
+  { id: "5", name: "Anita Sharma", role: "Safety Officer", project: "Multiple", status: "Active", lastActive: "10 min ago" },
+];

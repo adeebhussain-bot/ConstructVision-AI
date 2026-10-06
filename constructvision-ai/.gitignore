@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+outputs/annotated/*
+outputs/comparisons/*
+outputs/reports/*
+!outputs/annotated/.gitkeep
+!outputs/comparisons/.gitkeep
+!outputs/reports/.gitkeep
+yolov8n.pt
